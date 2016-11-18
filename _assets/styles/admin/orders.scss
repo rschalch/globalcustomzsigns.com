@@ -1,0 +1,102 @@
+@import "../base";
+@import "../mixins";
+
+.filter-button {
+  background-color: white !important;
+  color: $primary-color !important;
+  &:active, &.active, &:focus, &.focus {
+    outline: 0px !important;
+    background-color: $primary-color !important;
+    color: white !important;
+    font-weight: bold;
+  }
+}
+
+.hideme {
+  display: none;
+  visibility: collapse;
+}
+
+table {
+  margin-top: 20px;
+  tbody tr {
+    cursor: pointer;
+  }
+  input {
+    max-width: 160px;
+    @include placeholder {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.section-header {
+  color: #FFFFFF;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 9px;
+  border-radius: 4px;
+}
+
+.boxed {
+  border: 1px solid #CCCCCC;
+}
+
+// Vertical aligning modals
+.modal {
+  text-align: center;
+  /*padding: 0 !important;
+   :before {
+    display: inline-block;
+    height: 100%;
+    margin-right: -4px;
+  }*/
+  .modal-dialog {
+    width: 1400px;
+    display: inline-block;
+    vertical-align: middle;
+
+    .modal-body {
+      padding: 20px;
+
+      .text-status {
+        margin-top: 10px;
+        font-size: 0.85em;
+        text-align: left;
+
+        .date {
+          color: $primary-color;
+          font-weight: bold;
+        }
+      }
+    }
+
+    @media screen and (max-width: 1400px) {
+      width: 1160px;
+    }
+    @media screen and (max-width: 1200px) {
+      width: 950px;
+    }
+    @media screen and (max-width: 970px) {
+      width: 750px;
+    }
+    @media screen and (max-width: 760px) {
+      width: 470px;
+      text-align: center;
+    }
+    @media screen and (max-width: 480px) {
+      width: 310px;
+      text-align: center;
+    }
+  }
+}
+
+#warning {
+  margin-bottom: -10px;
+  padding-bottom: -10px;
+}
+.centered {
+  text-align: center !important;
+}

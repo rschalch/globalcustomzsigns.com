@@ -1,0 +1,35 @@
+@import "../base";
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+#custom_dates {
+    margin-left: 14px;
+    .col-md-6 {
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 0;
+    }
+}
+#commission_table {
+    .title {
+        width: 20px;
+    }
+}
+.errors {
+    margin-top: 20px;
+}
+
+.help-block {
+    color: $primary-color;
+    font-weight: bold;
+}
+.results {
+    color: $primary-color;
+    font-size: 14px;
+    font-weight: bold;
+}

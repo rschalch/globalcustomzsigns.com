@@ -1,0 +1,14 @@
+ [✔] Ordens geradas com numeração crescente; @done(08-01-2016 16:50)
+ [✔] Novos campos: previsão de entrega e ordens finalizadas (finalizada apenas por admin); @done(11-01-2016 09:53)
+ [✔] Alteração no Job Status, para que cada mensagem adicionada não seja apagada; @done(13-01-2016 10:51)
+ [✔] Adição de dois filtros, um para ordens finalizadas e outro para vendedores; @done(19-01-2016 13:31)
+ [✔] Opção de exportar em excel; @done(18-01-2016 12:18)
+ [✔] Botão de print; @done(18-01-2016 12:18)
+ [✔] Mudar a data para mês/dia/ano @done(27-01-2016 17:44)
+ [✔] A coluna LOGO pode tirar fora @done(28-01-2016 01:03)
+ [✔] Imprimir apenas o último job status! @done(28-01-2016 18:53)
+ [✔] Adicionar botão "No finalised" @done(28-01-2016 01:27)
+ [✔] Página para sistema de comissões, com filtragem por datas e cálculo de valores.
+
+Prazo: 40 dias (as novas implementações irão sendo adicionadas ao longo do prazo)
+Valor: R$ 1200,00

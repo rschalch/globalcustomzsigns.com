@@ -1,0 +1,69 @@
+@import "../base";
+#logotype {
+  top: 30px;
+  a {
+      display: inline-block;
+  }
+  #bdesign {
+      width: 130px;
+      margin-left: 100px;
+  }
+}
+#login {
+  font-family: $thefont;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3em;
+  color: $primary-color;
+  #forgotpass {
+    margin: 0px 20px;
+  }
+  a {
+    color: $primary-color;
+  }
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    background-color: $primary-color;
+    color: white;
+  }
+}
+#menu {
+  hr {
+    height: 5px;
+    border: none;
+    background-color: darken($primary-color, 15%);
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: $thefont;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    margin-right: 20px;
+    color: $primary-color;
+  }
+  .dropdown {
+    display: inline;
+    cursor: pointer;
+    ul {
+      a {
+        font-size: 1.4em;
+        margin: 0;
+      }
+    }
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+.btn-primary {
+  background: $primary-color;
+  color: #ffffff;
+  border: 0 none;
+
+  &:hover {
+    background-color: darken($primary-color, 15%)
+  }
+}

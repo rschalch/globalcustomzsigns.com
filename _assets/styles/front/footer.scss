@@ -1,0 +1,51 @@
+@import "../base";
+
+.footer {
+  font-family: $thefont;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+.info {
+  font-size: 2em;
+  text-align: center;
+}
+.links {
+  font-size: 1em;
+}
+.credits {
+  font-size: 1.2em;
+  text-align: center;
+}
+#credits {
+  a,
+  a:hover,
+  a:visited,
+  a:active {
+    color: lightcoral !important;
+  }
+}
+.contact-info {
+  font-family: $thefont;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: italic;
+  .title {
+    font-size: 1.9em;
+    color: $primary-color;
+  }
+}
+#divider {
+  .line {
+    height: 5px;
+    border: none;
+    margin: 0;
+  }
+  .white {
+    background-color: #FFFFFF;
+  }
+  .red {
+    margin-top: 8px;
+    background-color: $primary-color;
+  }
+}

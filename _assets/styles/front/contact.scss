@@ -1,0 +1,19 @@
+@import "../fonts";
+
+#form-email {
+  margin: 10px 0;
+}
+
+#map {
+  height: 480px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-text {
+  font-family: $thefont;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7em;
+  text-align: center;
+}

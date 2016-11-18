@@ -1,0 +1,48 @@
+@import "../base";
+.adm {
+  height: inherit;
+  background-color: white;
+  #logotype {
+    margin-top: 20px;
+    a {
+      color: $primary-color;
+      font-family: $thefont;
+      font-size: 1.1em;
+    }
+  }
+  #menu {
+    margin: 10px 0;
+
+    .menu-item {
+      height: 34px;
+      min-height: 34px;
+      margin-bottom: 4px;
+      padding: 5px;
+      text-align: center;
+      background-color: $primary-color;
+      a {
+        color: white;
+        font-family: $thefont;
+        font-size: 1.2em;
+        /*@media screen and (max-width: 480px) {
+          display: block;
+        }*/
+        span {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  .adm-title {
+    margin: 10px 0 20px;
+    text-align: center;
+    color: $primary-color;
+    font-family: $thefont;
+  }
+  .adm-title-no-margin {
+    margin: 0px;
+    text-align: center;
+    color: $primary-color;
+    font-family: $thefont;
+  }
+}

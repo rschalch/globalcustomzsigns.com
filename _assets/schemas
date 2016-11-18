@@ -1,0 +1,17 @@
+orders
+
+id
+salesman
+date
+client
+client_address
+client_email
+client_phone
+work
+work_description
+logo
+logo_delivery_date
+pay_method
+pay_total_value
+pay_deposit
+pay_balance

@@ -1,0 +1,111 @@
+@import "../base";
+html {
+  body {
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(../images/background.jpg);
+    .pagebg {
+      background: url(../images/bg.jpg) repeat-y;
+      background-size: 100%;
+      padding: 0 50px;
+    }
+    #img-fone {
+      img {
+        max-width: 100%;
+        margin-top: -40px;
+        margin-bottom: 20px;
+      }
+      @media screen and (min-width: 320px) {
+        padding-top: 26px;
+        padding-bottom: 20px;
+      }
+      @media screen and (min-width: 480px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      @media screen and (min-width: 768px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      @media screen and (min-width: 1024px) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+    #car {
+      @media screen and (min-width: 320px) {
+        padding-bottom: 20px;
+      }
+      @media screen and (min-width: 375px) {
+        padding-bottom: 20px;
+      }
+      @media screen and (min-width: 425px) {
+        padding-bottom: 20px;
+      }
+      @media screen and (min-width: 480px) {
+        padding-bottom: 20px;
+      }
+    }
+    .pagetitle {
+      font-family: $thefont;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 4em;
+      margin-right: 20px;
+      color: white;
+      text-align: center;
+      text-shadow: 5px 5px 5px #000;
+    }
+    .product-title {
+      font-family: $thefont;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 2.5em;
+      margin: 20px 0;
+      color: $primary-color;
+      text-align: center;
+    }
+    .product-subtitle {
+      font-family: $thefont;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.5em;
+      margin: 10px 0;
+      color: $primary-color;
+    }
+    .product-text {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    #content {
+       :first-child {
+        // margin-top: 8px;
+      }
+      .content-title {
+        font-family: $thefont;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.8em;
+        margin: 20px 40px 0 0;
+        color: $primary-color;
+      }
+      .content-text {
+        padding: 20px 60px;
+        text-align: justify;
+        @media screen and (max-width: 480px) {
+          padding: 20px 30px;
+        }
+      }
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.divisor {
+  margin-top: -50px;
+}
+.top-shadow {
+  box-shadow: inset 0 50px 50px -35px #222;
+}
